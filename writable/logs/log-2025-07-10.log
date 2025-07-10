@@ -1,0 +1,247 @@
+ERROR - 2025-07-10 11:38:59 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:118
+Stack trace:
+#0 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(162): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/CLI/Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 /Users/diego/Documents/GitHub/livros/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-07-10 11:39:52 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:118
+Stack trace:
+#0 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(162): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/CLI/Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 /Users/diego/Documents/GitHub/livros/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-07-10 11:40:48 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:118
+Stack trace:
+#0 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(162): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/CLI/Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 /Users/diego/Documents/GitHub/livros/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-07-10 11:56:35 --> ErrorException: Array to string conversion
+[Method: GET, Route: livros]
+in APPPATH/Views/livros.php on line 8.
+ 1 APPPATH/Views/livros.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/Users/diego/Documents/GitHub/livros/app/Views/livros.php', 8)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/diego/Documents/GitHub/livros/app/Views/livros.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('livros', [], true)
+ 5 APPPATH/Controllers/Livros.php(17): view('livros', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Livros->listar()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livros))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/diego/Documents/GitHub/livros/public/index.php')
+CRITICAL - 2025-07-10 11:57:14 --> ErrorException: Array to string conversion
+[Method: GET, Route: livros]
+in APPPATH/Views/livros.php on line 8.
+ 1 APPPATH/Views/livros.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/Users/diego/Documents/GitHub/livros/app/Views/livros.php', 8)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/diego/Documents/GitHub/livros/app/Views/livros.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('livros', [], true)
+ 5 APPPATH/Controllers/Livros.php(17): view('livros', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Livros->listar()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livros))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/diego/Documents/GitHub/livros/public/index.php')
+CRITICAL - 2025-07-10 11:57:14 --> ErrorException: Array to string conversion
+[Method: GET, Route: livros]
+in APPPATH/Views/livros.php on line 8.
+ 1 APPPATH/Views/livros.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/Users/diego/Documents/GitHub/livros/app/Views/livros.php', 8)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/diego/Documents/GitHub/livros/app/Views/livros.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('livros', [], true)
+ 5 APPPATH/Controllers/Livros.php(17): view('livros', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Livros->listar()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livros))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/diego/Documents/GitHub/livros/public/index.php')
+CRITICAL - 2025-07-10 11:58:29 --> ErrorException: Array to string conversion
+[Method: GET, Route: livros]
+in APPPATH/Views/livros.php on line 8.
+ 1 APPPATH/Views/livros.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/Users/diego/Documents/GitHub/livros/app/Views/livros.php', 8)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/diego/Documents/GitHub/livros/app/Views/livros.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('livros', [], true)
+ 5 APPPATH/Controllers/Livros.php(18): view('livros', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Livros->listar()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livros))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/diego/Documents/GitHub/livros/public/index.php')
+CRITICAL - 2025-07-10 11:58:30 --> ErrorException: Array to string conversion
+[Method: GET, Route: livros]
+in APPPATH/Views/livros.php on line 8.
+ 1 APPPATH/Views/livros.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/Users/diego/Documents/GitHub/livros/app/Views/livros.php', 8)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/diego/Documents/GitHub/livros/app/Views/livros.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('livros', [], true)
+ 5 APPPATH/Controllers/Livros.php(18): view('livros', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Livros->listar()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livros))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/diego/Documents/GitHub/livros/public/index.php')
+CRITICAL - 2025-07-10 11:59:34 --> ErrorException: Array to string conversion
+[Method: GET, Route: livros]
+in APPPATH/Views/livros.php on line 8.
+ 1 APPPATH/Views/livros.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/Users/diego/Documents/GitHub/livros/app/Views/livros.php', 8)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/diego/Documents/GitHub/livros/app/Views/livros.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('livros', [], true)
+ 5 APPPATH/Controllers/Livros.php(18): view('livros', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Livros->listar()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livros))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/diego/Documents/GitHub/livros/public/index.php')
+CRITICAL - 2025-07-10 12:02:27 --> ErrorException: Undefined array key "livro"
+[Method: GET, Route: livros]
+in APPPATH/Views/livros.php on line 15.
+ 1 APPPATH/Views/livros.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "livro"', '/Users/diego/Documents/GitHub/livros/app/Views/livros.php', 15)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/diego/Documents/GitHub/livros/app/Views/livros.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('livros', [], true)
+ 5 APPPATH/Controllers/Livros.php(18): view('livros', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Livros->listar()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livros))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/diego/Documents/GitHub/livros/public/index.php')
+CRITICAL - 2025-07-10 12:19:46 --> ErrorException: Undefined variable $id
+[Method: GET, Route: livros]
+in APPPATH/Views/livros.php on line 19.
+ 1 APPPATH/Views/livros.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', '/Users/diego/Documents/GitHub/livros/app/Views/livros.php', 19)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/diego/Documents/GitHub/livros/app/Views/livros.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('livros', [], true)
+ 5 APPPATH/Controllers/Livros.php(18): view('livros', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Livros->listar()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livros))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/diego/Documents/GitHub/livros/public/index.php')
+CRITICAL - 2025-07-10 12:20:15 --> ErrorException: Undefined variable $id
+[Method: GET, Route: livros]
+in APPPATH/Views/livros.php on line 19.
+ 1 APPPATH/Views/livros.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', '/Users/diego/Documents/GitHub/livros/app/Views/livros.php', 19)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/diego/Documents/GitHub/livros/app/Views/livros.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('livros', [], true)
+ 5 APPPATH/Controllers/Livros.php(18): view('livros', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Livros->listar()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livros))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/diego/Documents/GitHub/livros/public/index.php')
+CRITICAL - 2025-07-10 12:20:16 --> ErrorException: Undefined variable $id
+[Method: GET, Route: livros]
+in APPPATH/Views/livros.php on line 19.
+ 1 APPPATH/Views/livros.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', '/Users/diego/Documents/GitHub/livros/app/Views/livros.php', 19)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/diego/Documents/GitHub/livros/app/Views/livros.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('livros', [], true)
+ 5 APPPATH/Controllers/Livros.php(18): view('livros', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Livros->listar()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livros))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/diego/Documents/GitHub/livros/public/index.php')
+CRITICAL - 2025-07-10 12:20:16 --> ErrorException: Undefined variable $id
+[Method: GET, Route: livros]
+in APPPATH/Views/livros.php on line 19.
+ 1 APPPATH/Views/livros.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', '/Users/diego/Documents/GitHub/livros/app/Views/livros.php', 19)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/diego/Documents/GitHub/livros/app/Views/livros.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('livros', [], true)
+ 5 APPPATH/Controllers/Livros.php(18): view('livros', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Livros->listar()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livros))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/diego/Documents/GitHub/livros/public/index.php')
+CRITICAL - 2025-07-10 12:23:55 --> ArgumentCountError: Too few arguments to function App\Controllers\Livros::deletar(), 0 passed in /Users/diego/Documents/GitHub/livros/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: deletar/1]
+in APPPATH/Controllers/Livros.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Livros->deletar()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livros))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/diego/Documents/GitHub/livros/public/index.php')
+CRITICAL - 2025-07-10 12:27:05 --> ErrorException: Undefined variable $livros
+[Method: GET, Route: deletar/1]
+in APPPATH/Views/livros.php on line 14.
+ 1 APPPATH/Views/livros.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $livros', '/Users/diego/Documents/GitHub/livros/app/Views/livros.php', 14)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/diego/Documents/GitHub/livros/app/Views/livros.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('livros', [], true)
+ 5 APPPATH/Controllers/Livros.php(46): view('livros', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Livros->deletar('1')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livros))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/diego/Documents/GitHub/livros/public/index.php')
+DEBUG - 2025-07-10 12:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-10 12:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-10 12:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-10 12:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-10 12:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-10 12:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-10 12:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-10 12:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-10 12:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
