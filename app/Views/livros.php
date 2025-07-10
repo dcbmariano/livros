@@ -1,7 +1,6 @@
 <?= $this->extend('template') ?>
 <?= $this->section('conteudo') ?>
-
-
+ 
 <?php if (session()->has('mensagem')): ?>
     <div class="alert alert-danger">
         <?= session('mensagem') ?>
